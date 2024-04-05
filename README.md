@@ -2,7 +2,7 @@
 
 Submitted by: **Mina Krani**
 
-**Translate Me** is is a versatile tool designed to provide users with seamless translation capabilities across a wide range of languages.
+**Translate Me** is a versatile tool designed to provide users with seamless translation capabilities across a wide range of languages.
 With this app, users can effortlessly translate text into various languages, enabling effective communication and understanding across linguistic barriers.
 
 Time spent: **13** hours spent in total
