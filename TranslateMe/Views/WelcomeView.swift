@@ -66,7 +66,7 @@ struct WelcomeView: View {
             })
         }
         .onChange(of: bubbleIndex, {
-            if bubbleIndex == 11 {
+            if bubbleIndex == 12 {
                 isNavigating = true
             }
         })
@@ -75,7 +75,7 @@ struct WelcomeView: View {
             Timer.scheduledTimer(withTimeInterval: 0.3, repeats: true) { timer in
                 withAnimation {
                     bubbleIndex += 1
-                    if bubbleIndex == 11 {
+                    if bubbleIndex == 12 {
                         timer.invalidate()
                     }
                 }
