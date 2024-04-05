@@ -26,3 +26,5 @@ The following **additional** features are implemented:
 - [X] Securely log in or create an account to synchronize translation history across devices.
 
 ## Video Walkthrough
+
+![alt-text](TranslateMe.gif)

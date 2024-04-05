@@ -24,6 +24,9 @@ struct AuthenticationView: View {
             Rectangle()
                 .ignoresSafeArea()
                 .foregroundStyle(.teal.gradient.opacity(0.3))
+                .onTapGesture {
+                    isShowingKeyboard = false
+                }
             VStack {
                 Label("Translate Me", systemImage: "bubble.left.and.text.bubble.right.rtl")
                     .font(.custom("Avenir", size: 20))
@@ -95,9 +98,6 @@ struct AuthenticationView: View {
             }
             .padding()
             .textFieldStyle(.roundedBorder)
-        }
-        .onTapGesture {
-            isShowingKeyboard = false
         }
         .navigationBarBackButtonHidden()
         .navigationDestination(isPresented: $isNavigationg) {
